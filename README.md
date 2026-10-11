@@ -1,64 +1,87 @@
 grc102-lab8-security-governance/
 │
 ├── README.md
-├── docker-compose.yml
-├── governance_data.json
-├── patch_status.json
+├── LICENSE
+├── .gitignore
+│
+├── docs/
+│   ├── GRC102_Lab8_Report.pdf
+│   ├── governance_controls_report.md
+│   ├── governance_failure_analysis.md
+│   ├── governance_metrics_framework.md
+│   ├── governance_oversight.md
+│   ├── dashboard_user_guide.md
+│   ├── board_report.md
+│   └── equifax_comparison.md
+│
+├── config/
+│   ├── docker-compose.yml
+│   ├── governance_data.json
+│   └── patch_status.json
 │
 ├── database_init/
 │   └── init.sql
 │
-├── monitoring/
-│   ├── README.md
-│   ├── security_monitor.sh
-│   └── security_cron
-│
 ├── scripts/
 │   ├── vulnerability_scanner.py
-│   ├── patch_management.py
-│   ├── governance_tracker.py
 │   ├── initialize_governance.py
 │   ├── simulate_attack.py
 │   ├── analyze_governance_failures.py
 │   ├── implement_governance_controls.py
-│   └── governance_metrics.py
+│   ├── governance_metrics.py
+│   ├── governance_tracker.py
+│   └── patch_management.py
+│
+├── monitoring/
+│   ├── security_monitor.sh
+│   └── security_cron
 │
 ├── reports/
-│   ├── vulnerability_report_20261011_011816.json
-│   ├── vulnerability_report_20261011_012507.json
-│   ├── vulnerability_report_20261011_015357.json
-│   ├── vulnerability_report_20261011_015841.json
-│   ├── vulnerability_report_20261011_022005.json
-│   ├── governance_failure_report_20261011_013937.json
-│   ├── governance_failure_report_20261011_014550.json
+│   ├── vulnerability_report_before.json
+│   ├── vulnerability_report_after.json
+│   ├── governance_failure_report.json
 │   ├── attack_log.json
-│   ├── equifax_comparison.md
-│   ├── governance_controls_report.md
-│   ├── governance_oversight.md
-│   ├── board_report.md
-│   ├── governance_metrics_framework.md
-│   └── dashboard_user_guide.md
-│
-├── dashboards/
 │   └── executive_dashboard.html
 │
 ├── metrics_visualizations/
 │   ├── patch_compliance.png
-│   ├── vuln_remediation.png
+│   ├── vulnerability_remediation.png
 │   ├── security_incidents.png
 │   ├── monitoring_coverage.png
 │   └── policy_compliance.png
 │
 ├── evidence/
-│   ├── EVIDENCE.md
+│
+│   ├── part1_environment_setup/
+│   │   ├── fig1_kali_vm.png
+│   │   ├── fig2_docker_installation.png
+│   │   ├── fig3_docker_compose_fix.png
+│   │   ├── fig4_db_initialization.png
+│   │   ├── fig5_container_startup.png
+│   │   ├── fig6_vulnerability_scan.png
+│   │   ├── fig7_governance_tracker.png
+│   │   └── fig8_dashboard.png
 │   │
-│   ├── part1_simulated_environment/
-│   ├── part2_governance_failure_analysis/
-│   ├── part3_governance_control_implementation/
+│   ├── part2_governance_failures/
+│   │   ├── fig9_attack_execution.png
+│   │   ├── fig10_attack_log.png
+│   │   ├── fig11_failure_analysis.png
+│   │   └── fig12_equifax_mapping.png
+│   │
+│   ├── part3_control_implementation/
+│   │   ├── fig13_controls_implemented.png
+│   │   ├── fig14_database_hardening.png
+│   │   ├── fig15_network_segmentation.png
+│   │   ├── fig16_patch_verification.png
+│   │   ├── fig17_rescan_results.png
+│   │   └── fig18_attack_blocked.png
+│   │
 │   └── part4_metrics_reporting/
+│       ├── fig19_dashboard_generation.png
+│       ├── fig20_patch_metrics.png
+│       ├── fig21_vulnerability_metrics.png
+│       ├── fig22_incident_metrics.png
+│       ├── fig23_monitoring_metrics.png
+│       └── fig24_policy_metrics.png
 │
-├── docs/
-│   └── GRC102_Lab8_Report.pdf
-│
-└── screenshots/
-    └── original_screenshots/
+└── repository_evidence_map.md
