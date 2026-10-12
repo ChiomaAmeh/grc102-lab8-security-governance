@@ -1,62 +1,26 @@
-# Security Governance Oversight Policy
+# Security Governance Oversight
 
-## Purpose
+## Executive Responsibilities
 
-Establish accountability and governance oversight for information-security activities.
+- CEO: Ultimate responsibility for security governance
+- CISO: Day-to-day responsibility for security program
+- CIO: Responsibility for IT infrastructure security
+- CFO: Responsibility for security budget
 
----
+## Board Oversight
 
-## Governance Structure
+- Quarterly security briefings to the board
+- Annual security program review by the board
+- Security committee of the board established
 
-### Board of Directors
+## Reporting Structure
 
-Responsibilities:
+- CISO reports to CEO with dotted line to CIO
+- Security team reports to CISO
+- Clear escalation paths for security issues
 
-- Approve governance strategy.
-- Review security metrics.
-- Monitor organisational risk.
+## Accountability
 
----
-
-### Executive Management
-
-Responsibilities:
-
-- Approve remediation initiatives.
-- Review compliance performance.
-- Allocate governance resources.
-
----
-
-### Security Governance Team
-
-Responsibilities:
-
-- Track governance KPIs.
-- Monitor control effectiveness.
-- Coordinate audit activities.
-
----
-
-## Oversight Activities
-
-- Monthly governance review meetings
-- Quarterly risk assessments
-- Annual control audits
-- Executive KPI reporting
-
----
-
-## Governance Metrics
-
-- Patch Compliance
-- Incident Rates
-- Audit Findings
-- Policy Compliance
-- Monitoring Coverage
-
----
-
-## Review Cycle
-
-This policy shall be reviewed annually.
+- Performance metrics tied to security responsibilities
+- Regular security performance reviews
+- Consequences for security failures

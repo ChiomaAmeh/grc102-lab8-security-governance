@@ -2,66 +2,43 @@
 
 ## Overview
 
-This report compares governance failures identified during the security governance simulation with failures that contributed to the Equifax breach.
+This report compares the security governance failures identified in our simulated environment to those that contributed to the Equifax data breach in 2017.
 
----
+## Key Governance Failures in Equifax Breach
 
-## Similar Failures
+1. **Patch Management Failure**: Equifax failed to patch a known vulnerability in Apache Struts (CVE-2017-5638) for several months after the patch was released.
 
-### Patch Management Failure
+2. **Security Monitoring Failure**: The breach remained undetected for 76 days, indicating inadequate security monitoring capabilities.
 
-Equifax failed to remediate a known Apache Struts vulnerability (CVE-2017-5638).
+3. **Network Segmentation Failure**: Attackers were able to move laterally within Equifax's network, indicating insufficient network segmentation.
 
-Simulation Finding:
+4. **Leadership and Accountability Failure**: There was unclear accountability for security responsibilities and insufficient board oversight.
 
-- Vulnerability remained unpatched.
-- Patch-management process was ineffective.
+5. **Policy Implementation Failure**: Security policies were not effectively implemented or enforced.
 
----
+## Comparison with Simulated Environment
 
-### Weak Security Monitoring
-
-Equifax attackers remained undetected for an extended period.
-
-Simulation Finding:
-
-- Monitoring controls were absent.
-- Security events lacked visibility.
-
----
-
-### Lack of Network Segmentation
-
-Weak segmentation increased attacker movement opportunities.
-
-Simulation Finding:
-
-- Web application maintained unnecessary access to database services.
-- Network architecture lacked isolation.
-
----
-
-### Governance Oversight Weaknesses
-
-Equifax governance processes failed to ensure remediation completion.
-
-Simulation Finding:
-
-- Missing governance control ownership.
-- Inadequate management oversight.
-
----
+| Governance Failure | Equifax | Simulated Environment | Similarity |
+|-------------------|---------|------------------------|------------|
+| Patch Management | Failed to patch Apache Struts vulnerability for months | Unpatched Apache Struts vulnerability in web server | High |
+| Security Monitoring | Failed to detect breach for 76 days | No real-time monitoring to detect attack | High |
+| Network Segmentation | Insufficient segmentation allowed lateral movement | Web server can directly access database | High |
+| Authentication | Weak credentials and access controls | Default credentials on database | Medium |
+| Policy Implementation | Policies not effectively implemented | Patch and vulnerability management policies exist but not enforced | High |
+| Metrics and Measurement | Ineffective security metrics | Metrics not driving security improvements | Medium |
 
 ## Lessons Learned
 
-1. Effective patch management is critical.
-2. Continuous monitoring improves detection.
-3. Network segmentation reduces attack impact.
-4. Governance oversight improves accountability.
-5. Metrics should drive management action.
+1. **Effective Patch Management is Critical**: Both Equifax and our simulation demonstrate that failing to patch known vulnerabilities can lead to compromise.
 
----
+2. **Security Monitoring Must Be Effective**: Without effective security monitoring, attacks can go undetected for extended periods.
+
+3. **Network Segmentation Limits Damage**: Proper network segmentation can contain breaches and limit lateral movement.
+
+4. **Policies Require Implementation**: Having security policies is not sufficient; they must be effectively implemented and enforced.
+
+5. **Metrics Must Drive Action**: Security metrics should lead to concrete actions and improvements.
 
 ## Conclusion
 
-The simulation demonstrates how governance failures can contribute to security incidents and highlights the importance of proactive governance controls.
+The simulated environment successfully recreates many of the security governance failures that contributed to the Equifax data breach. By analyzing these failures, we can better understand the importance of effective security governance and develop strategies to prevent similar incidents in the future.

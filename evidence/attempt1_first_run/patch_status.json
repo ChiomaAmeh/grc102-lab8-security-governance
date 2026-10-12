@@ -1,0 +1,22 @@
+{
+  "patches": [
+    {
+      "id": "STRUTS-2017-5638",
+      "cve": "CVE-2017-5638",
+      "component": "Apache Struts 2.3.30",
+      "severity": "Critical",
+      "discovered": "2017-03-07",
+      "patch_available": "2017-03-07",
+      "status": "Applied",
+      "days_overdue": 3500,
+      "governance_failure": "Equifax failed to patch for 143 days",
+      "applied_date": "2026-10-09T13:49:48.846109"
+    },
+    {
+      "id": "MYSQL-CRED-001",
+      "component": "MySQL 5.7.44",
+      "severity": "High",
+      "status": "Not Applied"
+    }
+  ]
+}

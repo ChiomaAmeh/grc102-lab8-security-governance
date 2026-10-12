@@ -1,0 +1,27 @@
+{
+  "framework": "ISO 27001 / NIST CSF",
+  "controls_failed": [
+    {
+      "control": "A.12.6.1 Management of technical vulnerabilities",
+      "failure": "No patching after 143 days",
+      "impact": "RCE S2-045"
+    },
+    {
+      "control": "A.9.4.3 Password management",
+      "failure": "Default MySQL creds root:password",
+      "impact": "Data breach"
+    },
+    {
+      "control": "A.13.1.3 Segregation in networks",
+      "failure": "Flat network web->DB",
+      "impact": "Lateral movement"
+    },
+    {
+      "control": "A.12.4.1 Event logging",
+      "failure": "No monitoring for 76 days",
+      "impact": "Delayed detection"
+    }
+  ],
+  "equifax_fine": "$700M",
+  "lessons": "Governance > Technology. Patch existed but process failed."
+}
