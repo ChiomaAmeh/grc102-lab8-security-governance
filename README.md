@@ -1,6 +1,8 @@
 # GRC102 Practical Lab 8 - Security Governance Simulation (Equifax-modelled)
 
-**Student:** Chioma Ameh | **ID:** C11/26/CGRCE/17567 | **Programme:** ICDFA Trainee - GRC Engineering
+**Student:** Chioma Ameh | 
+**ID:** C11/26/CGRCE/17567 | 
+**Programme:** ICDFA Trainee - GRC Engineering
 **Environment:** Kali Linux (kernel 6.16.8) VirtualBox VM on Windows 11; Docker 28.5.2; Compose 2.40.3. Isolated lab, synthetic data only, no external targets. Submitted late (after 11 Oct 2026, 4:07 PM WAT).
 
 ## Repository layout
